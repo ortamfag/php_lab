@@ -11,42 +11,54 @@
 <body>
     <header>
         <nav>
-          <a href="<?php
-          $text='Home';
-          $ref='index.php';
-          $current_page=false;
-          echo $ref;
-          ?>" class="menu_item <?php
-          if ($current_page)
-            echo ' active';
-          ?>">
-          <?php
-          echo $text;
-          ?> </a>
-          <a href="<?php
-          $text='About';
-          $ref='about.php';
-          $current_page=true;
-          echo $ref;
-          ?>" class="menu_item <?php
-          if ($current_page)
-            echo ' active';
-          ?>">
-          <?php
-          echo $text;
-          ?> "</a>
-          <a href="<?php
-          $text='Contact';
-          $ref='contact.php';
-          $current_page=false;
-          echo $ref;
-          ?>" class="menu_item <?php
-          if ($current_page)
-            echo ' active';
-          ?>">
-          <?php
-          echo $text;
-          ?> </a>
+			<a href="<?php
+					$text='Home';
+					$ref='index.php';
+					$current_page=false;
+					echo $ref;
+				?>" 
+				
+				class="menu_item <?php
+					if ($current_page)
+						echo ' active';
+				?>
+			">
+				<?php
+					echo $text;
+				?> 
+			</a>
+			
+			<a 
+				href="<?php
+					$text='About';
+					$ref='about.php';
+					$current_page=true;
+					echo $ref;
+				?>" 
+				
+				class="menu_item <?php
+					if ($current_page)
+						echo ' active';
+				?>
+			">
+				<?php echo $text; ?> 
+			"</a>
+			
+			<a 
+				href="<?php
+					$text='Contact';
+					$ref='contact.php';
+					$current_page=false;
+					echo $ref;
+				?>" 
+					
+				class="menu_item <?php
+					if ($current_page)
+					echo ' active';
+				?>
+			">
+				<?php echo $text; ?> 
+			</a>
         </nav>
     </header>
     <section class="about">
@@ -59,6 +71,7 @@
         </div>
     </section>
     <footer>
-<?php echo "<p> &nbsp; Сформировано:".date("d.m.Y в H-i.s")."</p>"; ?>    </footer>
+		<?php echo "<p> &nbsp; Сформировано:".date("d.m.Y в H-i.s")."</p>"; ?>
+	</footer>
 </body>
 </html>
