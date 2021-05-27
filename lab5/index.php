@@ -19,7 +19,7 @@
 				alt="Mospolytech"
 			>
 
-			<div class="header__info">Кириллов Д.П. | 201-322 | №5</div>
+			<div class="header__info">Жидов А.В. | 201-322 | №5</div>
 			
 			<div>
 				<?php

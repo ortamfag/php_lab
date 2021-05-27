@@ -48,7 +48,7 @@ main {
 
 .main-form {
     position: relative;
-    background-color: #FFA000;
+    background-color: grey;
     width: 40%;
     margin: 40px auto 100px auto;
     border-radius: 5px;

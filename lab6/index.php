@@ -10,7 +10,7 @@
 <body>
 	<header class="header">
 		<img class="header__logo-img" src="images/logo.png" alt="Mospolytech">
-		<a href="/" class="header__logo">№6 | Кириллов Даниил Палыч</a>
+		<a href="/" class="header__logo">№6 | Жидов Артем Валерьевич | 201-322</a>
 	</header>
 
 	<main>
@@ -112,5 +112,5 @@
     ?>
 	</main>
 
-	<footer>ABOBA + ABOBA = 5000</footer>
+	<footer>армяне до сих пор играют в нарды</footer>
 </body>

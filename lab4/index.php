@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Кириллов Д.П. 1337 | 201-322 | №4</title>
+	<title>Жидов А.В. | 201-322 | №4</title>
 
 	<link rel="stylesheet" href="styles.css">
 </head>
@@ -17,7 +17,7 @@
 				class="header__logo"
 			>
 
-			<div class="header__info">Кириллов Д.П. | 201-322 | №4</div>
+			<div class="header__info">Жидов А.В. | 201-322 | №4</div>
 		</div>
 	</header>
 
@@ -75,7 +75,7 @@
 	</main>
 
 	<footer class="footer">
-		<div class="footer__info">2 + 2 = 5000</div>
+		<div class="footer__info">а у вас в подвале армяне в нарды играют</div>
 	</footer>
 </body>
 </html>
