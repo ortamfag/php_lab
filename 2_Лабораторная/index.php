@@ -24,6 +24,7 @@
         <button type="submit">Ввести</button>
       </form>
       <?php
+      $min_y = -999;
       $x = 1; // начальное значение аргумента
       $y = 1;
       $average = 0;
@@ -122,12 +123,12 @@
     <footer>
       <?php
       echo
-          '<div class="footer">
-              <p>Максимальное значение - ' . $max_y . '</p>
-              <p>Минимальное значение - ' . $min_y . '</p>
-              <p>Сумма элементов - ' . $average . '</p>
-              <p>Среднее арифметическое - ' . round($average / ($i + 1), 2) . '</p>
-          </div>'
+        '<div class="footer">
+            <p class="text">Максимальное значение - ' . $max_y . '</p>
+            <p class="text">Минимальное значение - ' . $min_y . '</p>
+            <p class="text">Сумма элементов - ' . $average . '</p>
+            <p class="text">Среднее арифметическое - ' . round($average / ($i + 1), 2) . '</p>
+        </div>'
       ?>
     </footer>
 </body>
