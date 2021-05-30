@@ -112,5 +112,5 @@
     ?>
 	</main>
 
-	<footer>армяне до сих пор играют в нарды</footer>
+	<footer><?php echo "<p> &nbsp; Сформировано:" . date("d.m.Y в H-i.s") . "</p>"; ?></footer>
 </body>

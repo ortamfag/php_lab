@@ -75,7 +75,7 @@
 	</main>
 
 	<footer class="footer">
-		<div class="footer__info">а у вас в подвале армяне в нарды играют</div>
+		<?php echo "<p> &nbsp; Сформировано:" . date("d.m.Y в H-i.s") . "</p>"; ?>
 	</footer>
 </body>
 </html>

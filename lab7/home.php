@@ -9,6 +9,12 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+	<header class="header">
+		<img class="header__logo-img" src="images/logo.png" alt="Mospolytech">
+		<a href="/" class="header__logo">№6 | Жидов Артем Валерьевич | 201-322</a>
+	</header>
+
 	<main>
 		<form name="Test" method="POST" class="main-form" action="sort.php" target="_blank">   
 			<div>
@@ -45,7 +51,7 @@
 		</form>
 	</main>
 
-	<footer></footer>
+	<footer><?php echo "<p> &nbsp; Сформировано:" . date("d.m.Y в H-i.s") . "</p>"; ?></footer>
 
 	<script>
 		const addElementBtn = document.querySelector('.addElement');

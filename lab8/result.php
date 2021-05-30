@@ -17,7 +17,7 @@
 				class="header__logo"
 			>
 
-			<div class="header__info">Кириллов Д.П. | 201-322 | №8</div>
+			<div class="header__info">Жидов А.В. | 201-322 | №8</div>
 		</div>
 	</header>
 

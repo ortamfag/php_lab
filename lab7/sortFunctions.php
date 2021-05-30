@@ -66,33 +66,33 @@
 		$countIterations=0;
 		do
 		{
-		   $i = ceil($step);
-		   do
-		   {
-			 $j=$i-$step;
-			 $c=1;
-			 do
-			 {
-			   if($a[$j]<=$a[$j+$step])
-			   {
-				  $c=0;
-			   }
-			   else
-			   {
-				  $tmp=$a[$j];
-				  $a[$j]=$a[$j+$step];
-				  $a[$j+$step]=$tmp;
-				  $countIterations+=1;
-				  echo '<div>Итерация #'.$countIterations;
+		$i = ceil($step);
+		do
+		{
+			$j=$i-$step;
+			$c=1;
+			do
+			{
+			if($a[$j]<=$a[$j+$step])
+			{
+				$c=0;
+			}
+			else
+			{
+				$tmp=$a[$j];
+				$a[$j]=$a[$j+$step];
+				$a[$j+$step]=$tmp;
+				$countIterations+=1;
+				echo '<div>Итерация #'.$countIterations;
 					foreach ($a as $key => $value) {
 						echo ' '.$value.' ';
 					}
 					echo "</div>";
-			   }
+			}
 			$j=$j-1;
-			 }
-			 while($j>=0 && ($c==1));
-			  $i = $i+1;
+			}
+			while($j>=0 && ($c==1));
+			$i = $i+1;
 			}
 			while($i<=$sort_length);
 			$step = $step/2;
@@ -167,12 +167,12 @@
 		
 		if($low < $j){
 		  // рекурсивно вызываем сортировку для левой части
-		  quickSort($arr, $low, $j);
+		quickSort($arr, $low, $j);
 		} 
 
 		if($i < $high){
 		  // рекурсивно вызываем сортировку для правой части
-		  quickSort($arr, $i, $high);
+		quickSort($arr, $i, $high);
 		}
 	}
 
